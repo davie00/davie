@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------------------
+comon styles
+------------------------------------ */
+
+  
+#subNav {
+	text-align: left;
+	font-family: 'Muli', sans-serif;
+	font-size: 13px;
+	background-color: rgba(8,178,190,1.00);
+	text-transform: uppercase;
+	-webkit-transition: padding-top .3s,padding-bottom .3s;
+	transition: padding-top .3s,padding-bottom .3s;
+	border: none;
+}
+
+#mainNav {
+	font-size: 15px;
+	-webkit-transition: padding-top .3s,padding-bottom .3s;
+	transition: padding-top .3s,padding-bottom .3s;
+	border: none;
+	background-color: rgba(8,178,190,1.00);
+	font-family: 'Muli', sans-serif;
+  }
+  
+  .navbar {
+	padding: 0px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+	font-weight: 800;
+	border-top: 2px solid transparent;
+	padding: 20px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+	color: rgba(230,230,230,1);
+	background-color: rgba(255,255,255,0.10);
+	border-top: 2px solid rgba(80,186,135,1.00);
+  }
+  
+  .navbar-social .nav-item {
+	padding-left: 10px;
+  }
+	
+	.navbar-nav a{
+		color: rgba(97,101,102,1);
+		text-indent: 25px;
+	}
+
+  .navbar-social .nav-item a {
+		color: rgba(255,255,255,1.00);
+		}
+  
+  .navbar-social .nav-item a:hover {
+	color: rgba(11,115,133,1.00);
+	text-decoration: none;
+	}
+	
+	#carousel .container-fluid {
+		padding: 0px;
+	}
+	
+	#carousel h3, #carousel p {
+		color: rgba(8,154,190,1.00);
+	}
+	
+	.carousel-indicators .active {
+		background-color: white;
+	}
+
+	section .container {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+
+	#informationone {
+		background-color: rgba(35, 38, 45, 1);
+		color: white;
+		padding-top: 40px;
+		text-align: center;
+	}
+
+	#informationone h4 {
+		font-size: 42px;
+		font-family: 'Muli', sans-serif;
+	}
+
+	#informationone p {
+		padding-top: 10px;
+		font-size: 22px;
+		font-family: 'Dosis', sans-serif;
+	}
+
+	.timer {
+		font-size: 28px;
+		padding-top: 10px !important;
+		font-family: 'Dosis', sans-serif;
+		text-transform: uppercase;
+	}
+
+	.button {
+		padding-top: 23px !important;
+	}
+
+	.BuyTokens {
+		color: rgba(8,154,190,1.00);
+		font-size: 26px !important;
+		text-transform: uppercase;
+		font-family: 'Dosis', sans-serif;
+		border-color: rgba(8,154,190,1.00) !important;
+	  border-width: 3px !important;
+		border-style: solid !important;
+		border-radius: 18px !important;
+	}
+
+	.BuyTokens:hover {
+		color: white;
+		border: none !important;
+		background-color: rgba(8,154,190,1.00);
+	}
+
+	#informationtwo {
+		background-color: rgba(35, 38, 45, 1);
+		color: white;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	#informationtwo h4 {
+		text-transform: uppercase;
+		font-family: 'Muli', sans-serif;
+		font-size: 30px;
+		padding-bottom: 8px;
+	}
+
+	#informationtwo p {
+		font-family: 'Dosis', sans-serif;
+		font-size: 19px;
+	}
+
+	#informationtwo i {
+		font-size: 75px;
+		padding-bottom: 40px;
+		}
+
+ #informationtwo i:hover {
+	color: rgba(8,154,190,1.00);
+	font-size: 82px;
+ }
