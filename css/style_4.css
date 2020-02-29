@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------------------
+comon styles
+------------------------------------ */
+
+#mainNav {
+	font-size: 13px;
+	background-color: rgba(10,141,150,1.00);
+	text-transform: uppercase;
+	border: none;
+	margin-right: 0px !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+	font-family: 'Muli', sans-serif;
+	color: rgba(255,255,255,1);
+	font-weight: 550;
+	border-top: 2px solid transparent;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+	color: rgba(230,230,230,1);
+	background-color: rgba(255,255,255,0.10);
+	border-top: 2px solid rgba(80,186,135,1.00);
+  }
+
+	
+  .navbar-nav a{
+	color: rgba(97,101,102,1);
+	text-indent: 40px;
+}
+
+.navbar-social .nav-item a {
+	color: rgba(255,255,255,1.00);
+	}
+  
+  .navbar-social .nav-item a:hover {
+	color: rgba(11,115,133,1.00);
+	text-decoration: none;
+    }
+    
+    .whatislunarpic {
+		width: 100%;
+		height: 100%;
+	}
+
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+
+	.centered h2{
+		font-size: 90px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+	}
+
+    .open-sourcepic {
+        padding-top: 55px;
+        width: 60%;
+        float: right;
+    }
+
+    #open-sourcetext {
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        padding-top: 165px;
+    }
+
+    #open-source {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: rgb(36, 38, 46);
+    }
+
+    #open-source h4 {
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #solution {
+        background-color: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #solution h3{
+        color: rgb(51, 51, 51);
+        text-align: center;
+        text-transform: uppercase;
+        font-family:  'Muli', sans-serif;
+        font-size: 40px;
+    }
+
+    #solution h4{
+        color: rgb(95, 114, 127);
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+    }
+
+    #solution p{
+        padding-top: 60px;
+        color: rgb(51, 51, 51);
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+    }
+
+    .housepic {
+        text-align: center !important;
+    }
+
+    #advantages{
+        padding-right: 250px;
+        padding-left: 250px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: rgb(36, 38, 46);
+    }
+
+    #advantages h3{
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .iconsadvan {
+        text-align: center;
+    }
+
+    #advantages i {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(32, 204, 175);
+        padding-bottom: 10px;
+        padding-top: 45px;
+    }
+
+    #advantages h4 {
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #advantages p{
+        color: rgb(84, 101, 113);
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    #therail {
+        background-color: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+
+    #therail h2{
+        color: rgb(51, 51, 51);
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Muli', sans-serif;
+        text-transform: uppercase;
+    }
+
+    #therail h3 {
+        color: rgb(95, 114, 127);
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+    }
+
+    #therail h4 {
+        color: rgb(51, 51, 51);
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    .railpic {
+        width: 100%;
+    }
+
+    .railpicone {
+        text-align: center;
+    }
+
+    .railpictwo {
+        text-align: center;
+        margin-top: -180px;
+    }
+
+    #therail p {
+        text-align: center;
+        color: rgb(92, 106, 114);
+        font-family: 'Dosis', sans-serif;
+        font-size: 19px;
+    }
+
+    #firstrail {
+        margin-top: -80px;
+    }
+
+    #network {
+        padding-right: 250px;
+        padding-left: 250px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: rgb(36, 38, 46);
+    }
+
+    #network h3 {
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 45px;
+    }
+
+    .networkpicture {
+        width: 100%;
+        float: left;        
+    }
+
+    #network h4 {
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    #quote {
+		padding-top: 60px;
+		padding-bottom: 10px;
+		text-align: center;
+		background: rgb(57,64,108);
+		background: linear-gradient(90deg, rgba(57,64,108,1) 0%, rgba(37,108,136,1) 50%, rgba(44,103,121,1) 100%);
+	}
+
+	#quote h4 {
+		font-family: 'Muli', sans-serif;
+		font-size: 18px;
+		color: white;
+		padding-bottom: 12px;
+	}
+
+	#quote p {
+		font-family: 'Muli', sans-serif;
+		font-size: 16px;
+		color: white;
+    }
+    
+    #bottomsec {
+        padding-right: 250px;
+        padding-left: 250px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        background-color: rgb(36, 38, 46);
+    }
+
+    #bottomsec i{
+        color: rgb(29, 186, 160);
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .iconsbottom {
+        text-align: center;
+    }
+
+    #bottomsec p{
+        color: white;
+        font-size: 20px;
+        padding-bottom: 50px;
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+    }
+
+    #footer {
+		background-color: rgba(20,45,48,1.00);
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	#footer p {
+		padding-left: 40px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size: 16px;
+	}
+
+	.icons{
+		text-align: center;
+		font-size: 10px;
+	}
+
+	.icons a {
+		padding-right: 10px;
+		color: white;
+	}
+
+	.footernavbar {
+		background-color: none;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.footernavbar a {
+		text-transform: uppercase;
+		float: left;
+		font-family: 'Muli', sans-serif;
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 10px 12px;
+  		text-decoration: none;
+  		font-size: 15px;
+	}
+
+	.footernavbar a:hover {
+		color: rgba(11,115,133,1.00);
+		text-decoration: none;
+	}
+
+	.footernavbar a.active {
+	  font-weight: 600;
+	}

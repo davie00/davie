@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------------------
+comon styles
+------------------------------------ */
+
+#mainNav {
+	font-size: 13px;
+	background-color: rgba(10,141,150,1.00);
+	text-transform: uppercase;
+	border: none;
+	margin-right: 0px !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+	font-family: 'Muli', sans-serif;
+	color: rgba(255,255,255,1);
+	font-weight: 550;
+	border-top: 2px solid transparent;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+	color: rgba(230,230,230,1);
+	background-color: rgba(255,255,255,0.10);
+	border-top: 2px solid rgba(80,186,135,1.00);
+  }
+
+	
+  .navbar-nav a{
+	color: rgba(97,101,102,1);
+	text-indent: 40px;
+}
+
+.navbar-social .nav-item a {
+	color: rgba(255,255,255,1.00);
+	}
+  
+  .navbar-social .nav-item a:hover {
+	color: rgba(11,115,133,1.00);
+	text-decoration: none;
+	}
+
+	.aboutuspic {
+		width: 100%;
+		height: 100%;
+	}
+
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+
+	.centered h2{
+		font-size: 90px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+	}
+
+	.centered h4 {
+		padding-top: 18px;
+		font-size: 30px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+	}
+
+	#whoarewe{
+		background-color: rgba(31,71,75,1.00);
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 65px;
+	}
+
+	#whoarewe h3{
+		text-transform: uppercase;
+		font-size: 65px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+	}
+
+	#whoarewe p {
+		padding-top: 15px;
+		font-size: 21px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+	}
+
+	#team{
+		background-color: white;
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 45px;
+	}
+
+	#team h3{
+		text-transform: uppercase;
+		font-size: 80px;
+		color: black;
+		font-family: 'Muli', sans-serif;
+		padding-bottom: 42px;
+	}
+
+	#team h4{
+		text-transform: uppercase;
+		font-size: 20px;
+		color: rgba(44,113,121,1);
+		font-family: 'Muli', sans-serif;
+		padding-top: 20px;
+	}
+
+	#team p{
+		text-transform: uppercase;
+		font-size: 20px;
+		color: rgba(7,83,91,1);
+		font-family: 'Dosis', sans-serif;
+		padding-top: 20px;
+	}
+
+	#team h5{
+		font-size: 18px;
+		color: rgba(7,83,91,1);
+		font-family: 'Muli', sans-serif;
+		padding-top: 20px;
+	}
+
+	#team i{
+		padding-right: 10px;
+	}
+
+	.teampic {
+		width: 100%;
+		height: 100%;
+		display: block;
+		margin: auto;
+		border-radius: 100%;
+		border: 20px solid white;
+	}
+
+	.teampic:hover {
+		width: 102%;
+		height: 102%;
+		display: block;
+		margin: auto;
+		border-radius: 100%;
+		border: 20px solid rgba(8,154,190,1.00);
+	}
+
+	.whatwedo {
+		height: 100%;
+		width: 100%;
+	}
+
+	#whatwedo {
+		background-color: rgba(31,71,75,1.00);
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 65px;
+	}
+
+	#whatwedo h3 {
+		text-transform: uppercase;
+		font-size: 80px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+		padding-bottom: 20px;
+	}
+
+	#whatwedo h4 {
+		text-transform: uppercase;
+		font-size: 20px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+		padding-bottom: 8px;
+	}
+
+	#whatwedo p {
+		font-size: 16px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+	}
+
+	#quote {
+		padding-top: 60px;
+		padding-bottom: 10px;
+		text-align: center;
+		background: rgb(57,64,108);
+		background: linear-gradient(90deg, rgba(57,64,108,1) 0%, rgba(37,108,136,1) 50%, rgba(44,103,121,1) 100%);
+	}
+
+	#quote h4 {
+		font-family: 'Muli', sans-serif;
+		font-size: 18px;
+		color: white;
+		padding-bottom: 12px;
+	}
+
+	#quote p {
+		font-family: 'Muli', sans-serif;
+		font-size: 16px;
+		color: white;
+	}
+
+	#howitstarted {
+		background-color: rgba(31,71,75,1.00);
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 65px; 
+	}
+
+	#howitstarted h3 {
+		text-transform: uppercase;
+		font-size: 80px;
+		color: white;
+		font-family: 'Muli', sans-serif;
+		padding-bottom: 20px;
+	}
+
+	#howitstarted p {
+		font-size: 20px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+	}
+
+	#footer {
+		background-color: rgba(20,45,48,1.00);
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	#footer p {
+		padding-left: 40px;
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size: 16px;
+	}
+
+	.icons{
+		text-align: center;
+		font-size: 10px;
+	}
+
+	.icons a {
+		padding-right: 10px;
+		color: white;
+	}
+
+	.footernavbar {
+		background-color: none;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.footernavbar a {
+		text-transform: uppercase;
+		float: left;
+		font-family: 'Muli', sans-serif;
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 10px 12px;
+  		text-decoration: none;
+  		font-size: 15px;
+	}
+
+	.footernavbar a:hover {
+		color: rgba(11,115,133,1.00);
+		text-decoration: none;
+	}
+
+	.footernavbar a.active {
+	  font-weight: 600;
+	}
